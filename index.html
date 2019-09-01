@@ -16,6 +16,9 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 	<style>
+		html {
+		  scroll-behavior: smooth;
+		}
 		body{
 			font-family: 'Nanum Gothic', sans-serif;
 		}
@@ -75,7 +78,7 @@
 				<br/><br/>
 				<div class="text-center" style="margin-top: 200px;">
 				<div class="text-light">
-					<span style="font-size: 50px;"><strong class="typing"></strong></span>
+					<span style="font-size: 20px;"><strong class="typing"></strong></span>
 				</div>
 				<p class="typing-txt">안녕하세요. 남성우의 포트폴리오입니다. </p> 
 				</div>	
@@ -85,11 +88,11 @@
 	  <br/>	  
 		  <h3 class="text-secondary text-center"><strong>About Me</strong></h3>
 	  <br/>  
-			  <div class="card shadow rounded row" style="height: 300px;">
-			    <h4 class="col-3 text-center" style="margin-top: 50px;">
-			    	<span><strong>열정 가득한 개발꿈나무</strong></span>
+			  <div class="card shadow rounded row" style="height: 300px; padding: 10px; margin: 10px;">
+			    <h4 class="col-lg-3 text-center" style="margin-top: 50px;">
+			    	<span><strong>열정 넘치는 개발자</strong></span>
 			    </h4>
-			    <div class="col-9 text-left" style="margin-top: 50px;">
+			    <div class="col-lg-9 text-left" style="margin-top: 50px;">
 			    	<p>
 			    	자기소개...................5~10줄...  	 
 			    	</p>
@@ -103,18 +106,18 @@
 		  <h3 class="text-secondary text-center"><strong>Skill</strong></h3>
 		  <br/>
 		  <div class="row">
-		  <div class="col-4">
-		  <div class="card shadow rounded text-center" style="height: 300px; padding: 10px;">
+		  <div class="col-lg-4">
+		  <div class="card shadow rounded text-center" style="height: 300px; padding: 10px; margin: 10px;">
 		  <h5><strong>Languages</strong></h5>
 		  </div>
 		  </div>
-		  <div class="col-4">
-		  <div class="card shadow rounded text-center" style="height: 300px; padding: 10px;">
+		  <div class="col-lg-4">
+		  <div class="card shadow rounded text-center" style="height: 300px; padding: 10px; margin: 10px;">
 		  <h5><strong>Front-End</strong></h5>
 		  </div>
 		  </div>
-		  <div class="col-4">
-		  <div class="card shadow rounded text-center" style="height: 300px; padding: 10px;">
+		  <div class="col-lg-4">
+		  <div class="card shadow rounded text-center" style="height: 300px; padding: 10px; margin: 10px;">
 		  <h5><strong>Back-End</strong></h5>
 		  </div>
 		  </div>
@@ -123,12 +126,65 @@
 		  <br/><br/>
 		  <br/><br/>
 	  </div>
+	  <div id="project" class="container" style="padding: 20px;">
+	  	  <br/>	  
+		  <h3 class="text-secondary text-center"><strong>Project</strong></h3>
+		  <br/>
+		  
+<!-- 		  project 1 -->
+		  <div class="card border-info shadow-sm rounded" style="max-width: 100%; margin: 10px;">
+		  <div class="row no-gutters">
+		    <div class="col-md-4">
+		      <img src="images/tgetmain.gif" class="card-img" alt="..." height="100%">
+		    </div>
+		    <div class="col-md-8">
+		      <div class="card-body">
+		        <h5 class="card-title"><strong>T-GET ( 티켓 중개 플랫폼 )</strong></h5>
+		        <p class="card-text">This is a wider card with suppThis is a wider card with suppThis is a wider card with suppThis is aThis is a wider card with suppThis is a wider card with supp wider card with suppThis is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		        <p class="card-text"><small class="text-muted">2019-08</small></p>
+		      </div>
+		    </div>
+		  </div>
+		  </div>
+<!-- 		  project 2 -->	
+		  <div class="card border-info shadow-sm rounded" style="max-width: 100%; margin: 10px;">
+		  <div class="row no-gutters">
+		    <div class="col-md-4">
+		      <img src="..." class="card-img" alt="...">
+		    </div>
+		    <div class="col-md-8">
+		      <div class="card-body">
+		        <h5 class="card-title">Card title</h5>
+		        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		      </div>
+		    </div>
+		  </div>
+		  </div>
+<!-- 		  project 3 -->	
+		  <div class="card border-info shadow-sm rounded" style="max-width: 100%; margin: 10px;">
+		  <div class="row no-gutters">
+		    <div class="col-md-4">
+		      <img src="..." class="card-img" alt="...">
+		    </div>
+		    <div class="col-md-8">
+		      <div class="card-body">
+		        <h5 class="card-title">Card title</h5>
+		        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		      </div>
+		    </div>
+		  </div>
+		  </div>		  
+		  	
+	  </div>
 	  
 	  
 	  
 	  
 	  
 	  <script type="text/javascript">
+	 
 	  	var typingBool = false; 
 	    var typingIdx=0; 
 	    var typingTxt = $(".typing-txt").text(); 

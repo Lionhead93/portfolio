@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<meta charset="EUC-KR">
+	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Nam's Portfolio</title>
 	
@@ -77,7 +77,7 @@
 				<div class="text-light">
 					<span style="font-size: 50px;"><strong class="typing"></strong></span>
 				</div>
-				<p class="typing-txt">¾È³çÇÏ¼¼¿ä. ³²¼º¿ìÀÇ Æ÷Æ®Æú¸®¿ÀÀÔ´Ï´Ù. </p> 
+				<p class="typing-txt">ì•ˆë…•í•˜ì„¸ìš”. ë‚¨ì„±ìš°ì˜ í¬íŠ¸í´ë¦¬ì˜¤ì…ë‹ˆë‹¤. </p> 
 				</div>	
 	  </div>
 	  
@@ -87,11 +87,11 @@
 	  <br/>  
 			  <div class="card shadow rounded row" style="height: 300px;">
 			    <h4 class="col-3 text-center" style="margin-top: 50px;">
-			    	<span><strong>¿­Á¤ °¡µæÇÑ °³¹ß²Ş³ª¹«</strong></span>
+			    	<span><strong>ì—´ì • ê°€ë“í•œ ê°œë°œê¿ˆë‚˜ë¬´</strong></span>
 			    </h4>
 			    <div class="col-9 text-left" style="margin-top: 50px;">
 			    	<p>
-			    	ÀÚ±â¼Ò°³...................5~10ÁÙ...  	 
+			    	ìê¸°ì†Œê°œ...................5~10ì¤„...  	 
 			    	</p>
 			    </div>			    
 			  </div>
@@ -131,20 +131,20 @@
 	  <script type="text/javascript">
 	  	var typingBool = false; 
 	    var typingIdx=0; 
-	    var typingTxt = $(".typing-txt").text(); // Å¸ÀÌÇÎµÉ ÅØ½ºÆ®¸¦ °¡Á®¿Â´Ù 
-	    typingTxt=typingTxt.split(""); // ÇÑ±ÛÀÚ¾¿ ÀÚ¸¥´Ù. 
-	    if(typingBool==false){ // Å¸ÀÌÇÎÀÌ ÁøÇàµÇÁö ¾Ê¾Ò´Ù¸é 
+	    var typingTxt = $(".typing-txt").text(); 
+	    typingTxt=typingTxt.split(""); 
+	    if(typingBool==false){ 
 	       typingBool=true; 
 	       
-	       var tyInt = setInterval(typing,100); // ¹İº¹µ¿ÀÛ 
+	       var tyInt = setInterval(typing,100); 
 	     } 
 	     
 	     function typing(){ 
-	       if(typingIdx<typingTxt.length){ // Å¸ÀÌÇÎµÉ ÅØ½ºÆ® ±æÀÌ¸¸Å­ ¹İº¹ 
-	         $(".typing").append(typingTxt[typingIdx]); // ÇÑ±ÛÀÚ¾¿ ÀÌ¾îÁØ´Ù. 
+	       if(typingIdx<typingTxt.length){ 
+	         $(".typing").append(typingTxt[typingIdx]); 
 	         typingIdx++; 
 	       } else{ 
-	         clearInterval(tyInt); //³¡³ª¸é ¹İº¹Á¾·á 
+	         clearInterval(tyInt);
 	       } 
 	     }  
      </script>
